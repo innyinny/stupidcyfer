@@ -85,7 +85,7 @@ else:
 contents = open(args.inputfile, 'r').readlines();
 
 # deterine if it has the interpretter specified
-if('#!' == contents[0][:2] and 'stupidcyfer' in contents[0]):
+if(len(contents) and len(contents[0]) > 2 and '#!' == contents[0][:2] and 'stupidcyfer' in contents[0]):
     args.decipher = True;
     contents = contents[1:];
 
