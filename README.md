@@ -23,6 +23,10 @@ and automated text scanners used for flagging
 
 content or censorship
 
+also NOT WELL TESTED yet, this is brand new software
+
+any method changes could break deciphering old files
+
 #### Useful applications
 
 Handy for sharing translations, fan fiction,
